@@ -1,0 +1,59 @@
+body {
+    background-color: red;
+    border-style: solid;
+    border-color: white;
+}
+
+.mainContent {
+    padding-left: 20px;
+    background-color: white;
+}
+
+.tree {
+    float: left;
+    padding-right: 15px;
+    font-family:Georgia;
+}
+
+.spartains {
+    float: right;
+    padding: 15px;
+}
+
+.xerxes {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.quote {
+    text-align: center;
+    padding: 10px;
+}
+.cliff {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 60em) {
+    .xerxes, .tree {
+        width: 300;
+        height: 150;
+    }
+    .spartains{
+        width: 250;
+        height: 150;
+    }
+    .cliff{
+        width: 410;
+        height: 100;
+    }
+
+}
